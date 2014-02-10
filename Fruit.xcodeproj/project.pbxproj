@@ -10,14 +10,22 @@
 		8B650731189808D400D912AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650730189808D400D912AF /* UIKit.framework */; };
 		8B650733189808D400D912AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650732189808D400D912AF /* Foundation.framework */; };
 		8B650735189808D400D912AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B650734189808D400D912AF /* CoreGraphics.framework */; };
-		8B65073B189808D400D912AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B650739189808D400D912AF /* InfoPlist.strings */; };
-		8B65073D189808D400D912AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B65073C189808D400D912AF /* main.m */; };
-		8B650741189808D400D912AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650740189808D400D912AF /* AppDelegate.m */; };
-		8B650743189808D400D912AF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B650742189808D400D912AF /* Default.png */; };
-		8B650745189808D400D912AF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B650744189808D400D912AF /* Default@2x.png */; };
-		8B650747189808D400D912AF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B650746189808D400D912AF /* Default-568h@2x.png */; };
-		8B65074A189808D400D912AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B650749189808D400D912AF /* ViewController.m */; };
-		8B65074D189808D400D912AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B65074B189808D400D912AF /* ViewController.xib */; };
+		904972D418A8702500BC9646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972C118A8702500BC9646 /* AppDelegate.m */; };
+		904972D518A8702500BC9646 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972C318A8702500BC9646 /* Apple.m */; };
+		904972D618A8702500BC9646 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904972C418A8702500BC9646 /* Default-568h@2x.png */; };
+		904972D718A8702500BC9646 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 904972C518A8702500BC9646 /* Default.png */; };
+		904972D818A8702500BC9646 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 904972C618A8702500BC9646 /* Default@2x.png */; };
+		904972D918A8702500BC9646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 904972C718A8702500BC9646 /* InfoPlist.strings */; };
+		904972DA18A8702500BC9646 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904972C918A8702500BC9646 /* ViewController.xib */; };
+		904972DB18A8702500BC9646 /* Fruit-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 904972CB18A8702500BC9646 /* Fruit-Info.plist */; };
+		904972DC18A8702500BC9646 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972CE18A8702500BC9646 /* Fruit.m */; };
+		904972DE18A8702500BC9646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972D118A8702500BC9646 /* main.m */; };
+		904972DF18A8702500BC9646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972D318A8702500BC9646 /* ViewController.m */; };
+		904972F118A8754300BC9646 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972F018A8754300BC9646 /* Potato.m */; };
+		904972F418A8754F00BC9646 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972F318A8754F00BC9646 /* Onion.m */; };
+		904972F718A8755D00BC9646 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972F618A8755D00BC9646 /* Pumpkin.m */; };
+		904972FA18A875AC00BC9646 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 904972F918A875AC00BC9646 /* Vegetable.m */; };
+		904972FC18A89AD100BC9646 /* iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 904972FB18A89AD100BC9646 /* iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,18 +33,31 @@
 		8B650730189808D400D912AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B650732189808D400D912AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B650734189808D400D912AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8B650738189808D400D912AF /* Fruit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fruit-Info.plist"; sourceTree = "<group>"; };
-		8B65073A189808D400D912AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B65073C189808D400D912AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8B65073E189808D400D912AF /* Fruit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fruit-Prefix.pch"; sourceTree = "<group>"; };
-		8B65073F189808D400D912AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8B650740189808D400D912AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B650742189808D400D912AF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8B650744189808D400D912AF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8B650746189808D400D912AF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8B650748189808D400D912AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B650749189808D400D912AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8B65074C189808D400D912AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		904972C018A8702500BC9646 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		904972C118A8702500BC9646 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		904972C218A8702500BC9646 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		904972C318A8702500BC9646 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		904972C418A8702500BC9646 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		904972C518A8702500BC9646 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		904972C618A8702500BC9646 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		904972C818A8702500BC9646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		904972CA18A8702500BC9646 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		904972CB18A8702500BC9646 /* Fruit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fruit-Info.plist"; sourceTree = "<group>"; };
+		904972CC18A8702500BC9646 /* Fruit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fruit-Prefix.pch"; sourceTree = "<group>"; };
+		904972CD18A8702500BC9646 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		904972CE18A8702500BC9646 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		904972D118A8702500BC9646 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904972D218A8702500BC9646 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		904972D318A8702500BC9646 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		904972EF18A8754300BC9646 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		904972F018A8754300BC9646 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		904972F218A8754F00BC9646 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		904972F318A8754F00BC9646 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		904972F518A8755D00BC9646 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		904972F618A8755D00BC9646 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		904972F818A875AC00BC9646 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		904972F918A875AC00BC9646 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		904972FB18A89AD100BC9646 /* iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +77,8 @@
 		8B650724189808D400D912AF = {
 			isa = PBXGroup;
 			children = (
-				8B650736189808D400D912AF /* Fruit */,
+				904972FB18A89AD100BC9646 /* iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png */,
+				904972BF18A8702500BC9646 /* Fruit */,
 				8B65072F189808D400D912AF /* Frameworks */,
 				8B65072E189808D400D912AF /* Products */,
 			);
@@ -80,31 +102,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8B650736189808D400D912AF /* Fruit */ = {
+		904972BF18A8702500BC9646 /* Fruit */ = {
 			isa = PBXGroup;
 			children = (
-				8B65073F189808D400D912AF /* AppDelegate.h */,
-				8B650740189808D400D912AF /* AppDelegate.m */,
-				8B650748189808D400D912AF /* ViewController.h */,
-				8B650749189808D400D912AF /* ViewController.m */,
-				8B65074B189808D400D912AF /* ViewController.xib */,
-				8B650737189808D400D912AF /* Supporting Files */,
+				904972C018A8702500BC9646 /* AppDelegate.h */,
+				904972C118A8702500BC9646 /* AppDelegate.m */,
+				904972C218A8702500BC9646 /* Apple.h */,
+				904972C318A8702500BC9646 /* Apple.m */,
+				904972C418A8702500BC9646 /* Default-568h@2x.png */,
+				904972C518A8702500BC9646 /* Default.png */,
+				904972C618A8702500BC9646 /* Default@2x.png */,
+				904972C718A8702500BC9646 /* InfoPlist.strings */,
+				904972C918A8702500BC9646 /* ViewController.xib */,
+				904972CB18A8702500BC9646 /* Fruit-Info.plist */,
+				904972CC18A8702500BC9646 /* Fruit-Prefix.pch */,
+				904972CD18A8702500BC9646 /* Fruit.h */,
+				904972CE18A8702500BC9646 /* Fruit.m */,
+				904972D118A8702500BC9646 /* main.m */,
+				904972D218A8702500BC9646 /* ViewController.h */,
+				904972D318A8702500BC9646 /* ViewController.m */,
+				904972F818A875AC00BC9646 /* Vegetable.h */,
+				904972F918A875AC00BC9646 /* Vegetable.m */,
+				904972EF18A8754300BC9646 /* Potato.h */,
+				904972F018A8754300BC9646 /* Potato.m */,
+				904972F218A8754F00BC9646 /* Onion.h */,
+				904972F318A8754F00BC9646 /* Onion.m */,
+				904972F518A8755D00BC9646 /* Pumpkin.h */,
+				904972F618A8755D00BC9646 /* Pumpkin.m */,
 			);
 			path = Fruit;
-			sourceTree = "<group>";
-		};
-		8B650737189808D400D912AF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B650738189808D400D912AF /* Fruit-Info.plist */,
-				8B650739189808D400D912AF /* InfoPlist.strings */,
-				8B65073C189808D400D912AF /* main.m */,
-				8B65073E189808D400D912AF /* Fruit-Prefix.pch */,
-				8B650742189808D400D912AF /* Default.png */,
-				8B650744189808D400D912AF /* Default@2x.png */,
-				8B650746189808D400D912AF /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +184,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B65073B189808D400D912AF /* InfoPlist.strings in Resources */,
-				8B650743189808D400D912AF /* Default.png in Resources */,
-				8B650745189808D400D912AF /* Default@2x.png in Resources */,
-				8B650747189808D400D912AF /* Default-568h@2x.png in Resources */,
-				8B65074D189808D400D912AF /* ViewController.xib in Resources */,
+				904972DA18A8702500BC9646 /* ViewController.xib in Resources */,
+				904972D818A8702500BC9646 /* Default@2x.png in Resources */,
+				904972D718A8702500BC9646 /* Default.png in Resources */,
+				904972D918A8702500BC9646 /* InfoPlist.strings in Resources */,
+				904972FC18A89AD100BC9646 /* iOS Simulator Screen shot Feb 10, 2014 12.26.58 AM.png in Resources */,
+				904972DB18A8702500BC9646 /* Fruit-Info.plist in Resources */,
+				904972D618A8702500BC9646 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,27 +201,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B65073D189808D400D912AF /* main.m in Sources */,
-				8B650741189808D400D912AF /* AppDelegate.m in Sources */,
-				8B65074A189808D400D912AF /* ViewController.m in Sources */,
+				904972DF18A8702500BC9646 /* ViewController.m in Sources */,
+				904972FA18A875AC00BC9646 /* Vegetable.m in Sources */,
+				904972DC18A8702500BC9646 /* Fruit.m in Sources */,
+				904972F718A8755D00BC9646 /* Pumpkin.m in Sources */,
+				904972D518A8702500BC9646 /* Apple.m in Sources */,
+				904972D418A8702500BC9646 /* AppDelegate.m in Sources */,
+				904972F418A8754F00BC9646 /* Onion.m in Sources */,
+				904972DE18A8702500BC9646 /* main.m in Sources */,
+				904972F118A8754300BC9646 /* Potato.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B650739189808D400D912AF /* InfoPlist.strings */ = {
+		904972C718A8702500BC9646 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B65073A189808D400D912AF /* en */,
+				904972C818A8702500BC9646 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8B65074B189808D400D912AF /* ViewController.xib */ = {
+		904972C918A8702500BC9646 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8B65074C189808D400D912AF /* en */,
+				904972CA18A8702500BC9646 /* en */,
 			);
 			name = ViewController.xib;
 			sourceTree = "<group>";
@@ -298,6 +332,7 @@
 				8B650752189808D500D912AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
